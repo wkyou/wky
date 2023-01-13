@@ -1,0 +1,40 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    druid:
+      wky:
+        url: jdbc:mysql://127.0.0.1:3306/wky?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL
+        username: root
+        password: 123456
+      initial-size: 5 #连接池初始化大小
+      min-idle: 10 #最小空闲连接数
+      max-active: 20 #最大连接数
+      max-wait: 60000
+      web-stat-filter:
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*" #不统计这些请求数据
+      stat-view-servlet: #访问监控网页的登录用户名和密码
+        login-username: druid
+        login-password: druid
+      validation-query: SELECT 1 FROM DUAL
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+    publisher-confirm-type: correlated
+    # 发送者开启 return 确认机制
+    publisher-returns: true
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+# 异步线程配置
+
+async:
+  executor:
+    thread:
+      core_pool_size: 30  # 配置核心线程数
+      max_pool_size: 30  # 配置最大线程数
+      queue_capacity: 99988  # 配置队列大小
+      name:
+        prefix: async-importDB-   # 配置线程池中的线程的名称前缀
