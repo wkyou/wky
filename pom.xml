@@ -135,6 +135,34 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+
+<!--        关于javax.xml.bind的jdk版本支持情况：-->
+<!--        jdk8：支持-->
+<!--        jdk9：弃用-->
+<!--        jdk10：弃用-->
+<!--        jdk11：移除-->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-core</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
     </dependencies>
     <dependencyManagement>
         <dependencies>
