@@ -1,5 +1,6 @@
 package com.wang.web.controller;
 
+import com.wang.web.pojo.User;
 import com.wang.web.service.strategy.pay.PayEntity;
 import com.wang.web.service.strategy.pay.PayResult;
 import com.wang.web.service.strategy.pay.PayServiceApi;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.lang.reflect.Field;
 
 /**
  * @Author WangKanYou
