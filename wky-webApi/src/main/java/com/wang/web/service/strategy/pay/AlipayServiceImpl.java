@@ -19,7 +19,7 @@ public class AlipayServiceImpl implements PayService{
 
     @Override
     public PayResult unifiedOrder(PayEntity payEntity) {
-        String msg="这里是支付宝下单支付接口，你支付的金额为："+payEntity.getPayAmount();
+        String msg="这里是支付宝下单支付接口，你支付的金额为："+payEntity.getPayAmount()+"---zfb";
         return PayResult.Build.success(msg);
     }
 }
