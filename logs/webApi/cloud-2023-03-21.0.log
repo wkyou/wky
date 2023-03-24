@@ -1,0 +1,48 @@
+2023-03-21 17:32:45.507 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 19168 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-21 17:32:45.514 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-21 17:32:47.657 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-21 17:32:47.661 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-21 17:32:47.734 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2023-03-21 17:32:49.171 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-21 17:32:49.212 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-21 17:32:49.212 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-21 17:32:49.213 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-21 17:32:49.397 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-21 17:32:49.397 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3797 ms
+2023-03-21 17:32:50.401 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-21 17:32:54.040 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-21 17:32:54.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-21 17:32:54.082 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-21 17:32:54.152 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3cf7433e:0/SimpleConnection@2b0483f2 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62094]
+2023-03-21 17:32:54.281 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 10.242 seconds (JVM running for 13.926)
+2023-03-21 17:33:09.645 [rebel-change-detector-thread] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-21 17:33:09.680 [rebel-change-detector-thread] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+2023-03-21 17:33:18.537 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-21 17:33:18.538 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-21 17:33:18.541 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-03-21 17:34:56.198 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 20096 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-21 17:34:56.209 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-21 17:34:57.418 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-21 17:34:57.421 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-21 17:34:57.482 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-03-21 17:34:58.521 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-21 17:34:58.551 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-21 17:34:58.552 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-21 17:34:58.552 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-21 17:34:58.693 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-21 17:34:58.693 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2419 ms
+2023-03-21 17:34:59.301 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-21 17:35:01.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-21 17:35:01.136 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-21 17:35:01.146 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-21 17:35:01.181 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#42ea14b8:0/SimpleConnection@268ee31d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62230]
+2023-03-21 17:35:01.255 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 6.463 seconds (JVM running for 8.733)
+2023-03-21 17:35:11.997 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-21 17:35:11.997 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-21 17:35:11.998 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-21 17:52:49.875 [http-nio-8088-exec-2] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-21 17:52:49.922 [http-nio-8088-exec-2] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 0 Redis repository interfaces.
+2023-03-21 17:56:24.851 [http-nio-8088-exec-3] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-21 17:56:24.885 [http-nio-8088-exec-3] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+2023-03-21 21:03:11.318 [getRedisMessageListenerContainer-2] INFO  com.wang.web.listener.RedisKeyExpirationListener - 失效的Key是:语文书
+2023-03-21 21:03:11.318 [getRedisMessageListenerContainer-3] INFO  com.wang.web.listener.RedisKeyExpirationListener - 失效的Key是:count

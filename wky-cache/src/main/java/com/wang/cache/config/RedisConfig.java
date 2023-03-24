@@ -2,6 +2,10 @@ package com.wang.cache.config;
 
 import com.alibaba.fastjson.support.spring.GenericFastJsonRedisSerializer;
 import com.wang.cache.redis.RedisClient;
+import org.redisson.Redisson;
+import org.redisson.api.RedissonClient;
+import org.redisson.config.Config;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnSingleCandidate;
 import org.springframework.context.annotation.Bean;
@@ -19,6 +23,11 @@ import org.springframework.data.redis.serializer.GenericToStringSerializer;
  */
 @Configuration
 public class RedisConfig{
+    @Value("${spring.redis.host}")
+    private String redisHost;
+
+    @Value("${spring.redis.port}")
+    private String redisPort;
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory jedisConnectionFactory) {
         //设置序列化
@@ -50,6 +59,20 @@ public class RedisConfig{
     @Bean
     public StringRedisTemplate stringRedisTemplate(RedisConnectionFactory redisConnectionFactory) {
         return new StringRedisTemplate(redisConnectionFactory);
+    }
+
+    @Bean
+    public RedissonClient redissonClient() {
+        Config config = new Config();
+        config.useSingleServer().setAddress("redis://"+redisHost+":"+redisPort);
+        //if (StringUtils.isBlank(password)) {
+//            config.useSingleServer().setAddress("redis://" + redisHost + ":" + redisPort);
+//        } else {
+//            //TODO 发布打开下面的
+//            config.useSingleServer().setAddress("redis://" + redisHost + ":" + redisPort).setPassword(password);
+//        }
+
+        return Redisson.create(config);
     }
 
 }

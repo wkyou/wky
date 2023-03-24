@@ -26,6 +26,14 @@ spring:
     publisher-confirm-type: correlated
     # 发送者开启 return 确认机制
     publisher-returns: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    poolMaxTotal: 1000
+    poolMaxIdle: 500
+    poolMaxWait: 500000
+    timeout: 10000
+    database: 1 #
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
 # 异步线程配置
@@ -38,3 +46,24 @@ async:
       queue_capacity: 99988  # 配置队列大小
       name:
         prefix: async-importDB-   # 配置线程池中的线程的名称前缀
+
+payconfig: #支付的所有配置
+  wxconfig: #微信支付配置
+    appId: wx6a4803b779653fbe # 当前商户的appid
+    mchId: 1496316712 # 当前商户的商户号
+    certStream: conf/pkcs/weixin_apiclient_cert_1496316712.p12 # 证书地址
+    mchKey: 8gTN5vQXgpMHNrtZlqtTUr2lvX4OO8Ac # 独立模式key支付/服务商模式支付key
+    wxPublicType: 1 # 0表示公众程序是服务商的 1表示公众程序是子商户的
+    subAppid:  # 子商户的appid
+    subMchid:  # 子商户的mchId
+  aliconfig: #支付宝支付配置
+    appId: 2018010501600088
+    appPrivateKey: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5YlESKoN6dIYVc/jmBf75qjh0kUW7ePTToRNAHzDuauKKt79RWpooLRxR2BwT/TJJ6cln8JBy6G8JTjO1rG8OprwRNoivM9xs8aOR3enqqY6vBI3diUrinpRqkfD76xJtwe0RoryvVxo3HPnpCkk6eGbmfUVzAQ4eC2VtHJbMcqPYGuVjkRIw06ZshE9Kbu00/sYPb0anO/KEsSN2rPAWgt2YYUScRrGL+quJ6sl7A1zQKco+F9TcprDs6xVk/HoCG9ECq4yvlMh/J0GTubJj7KjMgDm7wHnLMsm0FWRuya//ymjmpgpowo8DzNBCed8ipUopJhnKhwE344qJkwyNAgMBAAECggEBAJQc+hrifqNyv8IaI01ckwfUOUDg5G7RSAJhmijMAuMp4I/mGOQd2DarPAoj+OL7k5c8Q19Y83/rNvOfWG8ZMq3pBy9Ve8VHUSB1uzMKsx56k/Y/VD0guQTwoDG5ImmTueiZXRiPBeOtWtOXwg+v2SvvEH+srLUira3Rexq/EbiLrsNl6BdxhHS1bNP8fR7b3nx11txXQOug8dGrg5LzBGnjSVYeapMtnZqsp+Um9VLFKYCsfo78wwCxIpbZiEME6E9+zUx6R7xww1sCr5ngkZ3DBrxJazwkCl+zKNNUvPDm7mjh4ITLB7y56c7RG/ky5NwNNV9vTl6hdYoZ58nYHd0CgYEA5cz0Fq9Su2oPgozh1Uok38WJECzAIeZf6Tjx2o5DVGwo/pdswtxPmzYCrkluSHq3lvv+pt7W6z4QCc5P4bpt3S7n2fC21GXwwnbqxTj5yopmX/wTOzQoxTBBA3UA6zNLKj0sbOHDTN8UCjq/IyPgLFXhNcmsa/XnLjDmr3RDr3cCgYEAzoUBT22rttyK/4kXLgCx8yZYmVjC1zKU2mu180M670Kk6dEHMxIs0KUI1t5E7AGPVZq4n6vNGor3vChXBbSm/jvygCe9NSSS4Nx2sVwX41wf95HjWQ8c+dTvznAtxgSdQ4wuGrq2/+T0K+05QQ7w7hr3oijcP/UUSF5iO4hNjRsCgYAkAB7BKwg/+hah8iYy/uGV+OFHGmujI+8kn1osThs4L5WghOJyCIekHir/WNuhGTCHw8SaKdDrm5ZxotOa3lT10LJbzz0lOy8jl/OhoBJp65KsONZecQZuFegpfXv+XNPKszixehDZix0dmSR2gdlNuMqGXajYZPapotmQ5RrxcwKBgDxzBBoqwNtqnKkFiKpne67vZ3mjWIzC+n0gkAafhC2qdTkXfSL+y+1akUbLkqL+JeVpv2bFU+jUCoWhzS8XXNYH2AiZGTHn/bIh9gAeM8PSIG1H36Me4F1kbbkgbtWKXjn6WzhptM0cSDhfXKXlaLJZZGiryyRRaVlxfxFr6T9HAoGAbWh2nyqcqBemJn3pPuyZv8sDR1CUpQvWMHllVEWPUzCX4gMTB/wkNH1UaGwUQ4c9QWDv7QBhBVLmXUisWwWF2dIhdfhPKfZhfIiVwQAiDZmeaoqWp17iihZeochMP/y791Ff6PVca10zNESLMxlwWJTg+rusNvEZ/MBbZvpvr3o=
+    appPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuWJREiqDenSGFXP45gX++ao4dJFFu3j006ETQB8w7mriire/UVqaKC0cUdgcE/0ySenJZ/CQcuhvCU4ztaxvDqa8ETaIrzPcbPGjkd3p6qmOrwSN3YlK4p6UapHw++sSbcHtEaK8r1caNxz56QpJOnhm5n1FcwEOHgtlbRyWzHKj2BrlY5ESMNOmbIRPSm7tNP7GD29GpzvyhLEjdqzwFoLdmGFEnEaxi/qrierJewNc0CnKPhfU3Kaw7OsVZPx6AhvRAquMr5TIfydBk7myY+yozIA5u8B5yzLJtBVkbsmv/8po5qYKaMKPA8zQQnnfIqVKKSYZyocBN+OKiZMMjQIDAQAB
+    scopeType: 1
+    aliPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu+bgGPRaRQRrBuu3jXic5wTWFeWhOlDyboWbY2JdBxwnKk8XnfofIFjCMHVx4ynzNybjF5nYtPwb9V1EJ066bRmLURo4tAa59PmIHln2pdE67apE5BX1YZulOXijupuKTf9T7bg4mHfcHA4L5A7Po0FPJZ3vrzTXB+lzQW95XowVaJqxG0SekCbmaETrkv5HDn9Mo5QlJ0hnjL1K9QJof9rfR0fHFWxD1cASzw8f/GSIlOzbMe0yEHuGVeqohtnLgTJTNiVmfXwEFXlxLMX6Ic0htXuTFSCLAcAxUXtsPXSWR2hnRH1u2TUEnyTMZOn/3Enh7PcsQQ8XLt8Da6kjvQIDAQAB
+    url: https://openapi.alipay.com/gateway.do
+    charset: UTF-8
+    format: json
+    signType: RSA2
+    storeId: gzzy

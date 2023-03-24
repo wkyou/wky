@@ -1,0 +1,386 @@
+2023-03-23 09:09:31.794 [getRedisMessageListenerContainer-4] INFO  com.wang.web.listener.RedisKeyExpirationListener - 失效的Key是:ReconcKey:hisBill:serviceChannelList
+2023-03-23 09:09:31.794 [getRedisMessageListenerContainer-5] INFO  com.wang.web.listener.RedisKeyExpirationListener - 失效的Key是:ReconcKey:hisBill:payTypeList
+2023-03-23 09:09:31.794 [getRedisMessageListenerContainer-3] INFO  com.wang.web.listener.RedisKeyExpirationListener - 失效的Key是:ReconcKey:hisBill:businessTypeList
+2023-03-23 09:09:33.249 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5581e273: tags=[[amq.ctag-SrE6janahHLHyvBDyuJhfA]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@2726b2f3 Shared Rabbit Connection: SimpleConnection@4a0a93ce [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54553], acknowledgeMode=MANUAL local queue size=0
+2023-03-23 09:09:33.683 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 09:09:34.114 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#768e40af:1/SimpleConnection@11ea0f0a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59445]
+2023-03-23 14:44:55.533 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 16136 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 14:44:55.536 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 14:44:57.085 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 14:44:57.087 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 14:44:57.127 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2023-03-23 14:44:58.383 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 14:44:58.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 14:44:58.401 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 14:44:58.401 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 14:44:58.570 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 14:44:58.570 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2957 ms
+2023-03-23 14:44:59.387 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 14:45:00.555 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 14:45:01.876 [redisson-netty-2-31] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 14:45:01.886 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 14:45:04.792 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 14:45:04.852 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 14:45:04.887 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 14:45:04.977 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#b63365c:0/SimpleConnection@72dc7f0a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52825]
+2023-03-23 14:45:05.197 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 10.722 seconds (JVM running for 15.845)
+2023-03-23 14:45:57.876 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 14:45:57.877 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 14:45:57.878 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-23 14:49:28.520 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 15276 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 14:49:28.523 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 14:49:29.653 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 14:49:29.666 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 14:49:29.702 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-03-23 14:49:30.817 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 14:49:30.840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 14:49:30.841 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 14:49:30.841 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 14:49:30.986 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 14:49:30.986 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2399 ms
+2023-03-23 14:49:31.745 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 14:49:32.684 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 14:49:33.438 [redisson-netty-2-9] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 14:49:33.443 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 14:49:34.707 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 14:49:34.721 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 14:49:34.730 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 14:49:34.770 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#792eeae6:0/SimpleConnection@172ca6a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53114]
+2023-03-23 14:49:34.856 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.282 seconds (JVM running for 9.583)
+2023-03-23 14:49:46.664 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 14:49:46.665 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 14:49:46.666 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-23 14:51:18.349 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 14576 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 14:51:18.352 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 14:51:19.566 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 14:51:19.569 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 14:51:19.606 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-03-23 14:51:20.739 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 14:51:20.753 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 14:51:20.754 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 14:51:20.754 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 14:51:20.930 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 14:51:20.930 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2477 ms
+2023-03-23 14:51:21.534 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 14:51:22.484 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 14:51:23.260 [redisson-netty-2-6] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 14:51:23.269 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 14:51:24.470 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 14:51:24.484 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 14:51:24.492 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 14:51:24.530 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#43a8bd35:0/SimpleConnection@4bf6bc2d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53301]
+2023-03-23 14:51:24.610 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.181 seconds (JVM running for 9.693)
+2023-03-23 14:51:37.918 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 14:51:37.919 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 14:51:37.920 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-23 14:52:13.366 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 3280 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 14:52:13.371 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 14:52:14.521 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 14:52:14.525 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 14:52:14.568 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2023-03-23 14:52:15.723 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 14:52:15.746 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 14:52:15.746 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 14:52:15.746 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 14:52:15.913 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 14:52:15.913 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2422 ms
+2023-03-23 14:52:16.581 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 14:52:17.816 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 14:52:18.625 [redisson-netty-2-18] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 14:52:18.625 [redisson-netty-2-19] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 14:52:19.897 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 14:52:19.913 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 14:52:19.922 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 14:52:19.970 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3c1df0e9:0/SimpleConnection@354baab2 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53456]
+2023-03-23 14:52:20.063 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.58 seconds (JVM running for 9.929)
+2023-03-23 14:53:06.521 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 14:53:06.521 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 14:53:06.523 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-23 15:02:30.867 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 15508 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:02:30.871 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:02:32.079 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:02:32.081 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:02:32.117 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:02:33.298 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:02:33.314 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:02:33.314 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:02:33.315 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:02:33.474 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:02:33.474 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2476 ms
+2023-03-23 15:02:34.187 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:02:35.129 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:02:35.882 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:02:35.881 [redisson-netty-2-16] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:02:37.090 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:02:37.103 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:02:37.112 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:02:37.150 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#58e7f930:0/SimpleConnection@540ac21e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53868]
+2023-03-23 15:02:37.232 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.285 seconds (JVM running for 9.77)
+2023-03-23 15:02:53.664 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:02:53.664 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:02:53.666 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-23 15:04:05.436 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 1888 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:04:05.440 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:04:06.694 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:04:06.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:04:06.733 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:04:07.856 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:04:07.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:04:07.873 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:04:07.873 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:04:08.024 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:04:08.025 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2482 ms
+2023-03-23 15:04:08.766 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:04:09.727 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:04:10.506 [redisson-netty-2-2] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:04:10.512 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:04:11.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:04:11.696 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:04:11.706 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:04:11.747 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3e5cbcfe:0/SimpleConnection@3e866323 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54044]
+2023-03-23 15:04:11.827 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.28 seconds (JVM running for 9.76)
+2023-03-23 15:04:28.373 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:04:28.374 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:04:28.376 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-23 15:05:48.945 [http-nio-8089-exec-4] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:05:48.974 [http-nio-8089-exec-4] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:06:49.094 [http-nio-8089-exec-2] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:06:49.118 [http-nio-8089-exec-2] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:17:10.398 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 10576 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:17:10.402 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:17:11.622 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:17:11.624 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:17:11.664 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:17:12.776 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:17:12.791 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:17:12.791 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:17:12.792 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:17:12.947 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:17:12.947 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2448 ms
+2023-03-23 15:17:13.635 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:17:14.603 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:17:15.354 [redisson-netty-2-8] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:17:15.362 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:17:16.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:17:16.543 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:17:16.551 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:17:16.591 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#720c0996:0/SimpleConnection@7c9015c6 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54592]
+2023-03-23 15:17:16.671 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.198 seconds (JVM running for 9.585)
+2023-03-23 15:18:05.062 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:18:05.063 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:18:05.064 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-23 15:18:32.509 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 6660 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:18:32.514 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:18:33.733 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:18:33.737 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:18:33.791 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:18:35.119 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:18:35.136 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:18:35.137 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:18:35.137 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:18:35.288 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:18:35.288 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2667 ms
+2023-03-23 15:18:35.936 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:18:36.879 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:18:37.640 [redisson-netty-2-18] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:18:37.642 [redisson-netty-2-19] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:18:38.868 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:18:38.881 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:18:38.890 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:18:38.929 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7771c4e:0/SimpleConnection@1c00a9f0 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54748]
+2023-03-23 15:18:39.015 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.585 seconds (JVM running for 10.109)
+2023-03-23 15:18:56.286 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:18:56.286 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:18:56.294 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2023-03-23 15:19:17.236 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 13164 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:19:17.241 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:19:18.337 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:19:18.340 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:19:18.383 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:19:19.529 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:19:19.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:19:19.545 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:19:19.546 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:19:19.692 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:19:19.692 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2348 ms
+2023-03-23 15:19:20.378 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:19:21.356 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:19:22.125 [redisson-netty-2-32] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:19:22.134 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:19:23.510 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:19:23.524 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:19:23.533 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:19:23.570 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#4fea095b:0/SimpleConnection@6179551b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54895]
+2023-03-23 15:19:23.648 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.333 seconds (JVM running for 10.235)
+2023-03-23 15:23:09.207 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:23:09.207 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:23:09.209 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-23 15:31:10.721 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 18368 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:31:10.728 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:31:12.237 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:31:12.240 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:31:12.288 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:31:13.620 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:31:13.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:31:13.645 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:31:13.645 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:31:13.836 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:31:13.836 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2938 ms
+2023-03-23 15:31:14.532 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:31:15.496 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:31:16.345 [redisson-netty-2-16] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:31:16.347 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:31:17.628 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:31:17.642 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:31:17.651 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:31:17.692 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5c03eb4e:0/SimpleConnection@311eb725 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55540]
+2023-03-23 15:31:17.771 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.959 seconds (JVM running for 10.503)
+2023-03-23 15:31:26.207 [rebel-change-detector-thread] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:31:26.274 [rebel-change-detector-thread] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:31:27.163 [http-nio-8089-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:31:27.163 [http-nio-8089-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:31:27.166 [http-nio-8089-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-03-23 15:36:25.642 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 5040 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:36:25.650 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:36:26.972 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:36:26.975 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:36:27.020 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:36:28.171 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:36:28.198 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:36:28.199 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:36:28.199 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:36:28.368 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:36:28.368 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2580 ms
+2023-03-23 15:36:28.975 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:36:29.877 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:36:30.620 [redisson-netty-2-7] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:36:30.630 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:36:31.896 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:36:31.911 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:36:31.921 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:36:31.962 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5b657342:0/SimpleConnection@46374b8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55918]
+2023-03-23 15:36:32.088 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 9.312 seconds (JVM running for 13.719)
+2023-03-23 15:36:42.754 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:36:42.754 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:36:42.757 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-23 15:37:03.909 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 12664 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:37:03.912 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:37:04.902 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:37:04.904 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:37:04.945 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:37:06.084 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:37:06.097 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:37:06.097 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:37:06.098 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:37:06.260 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:37:06.261 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2301 ms
+2023-03-23 15:37:07.000 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:37:07.809 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:37:08.519 [redisson-netty-2-30] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:37:08.528 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:37:09.586 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:37:09.600 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:37:09.609 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:37:09.651 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5ba184fc:0/SimpleConnection@28654aff [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56037]
+2023-03-23 15:37:09.732 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 6.453 seconds (JVM running for 8.101)
+2023-03-23 15:38:02.126 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:38:02.127 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:38:02.129 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-23 15:38:33.757 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-03-23 15:38:34.667 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-03-23 15:38:34.873 [SpringApplicationShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+2023-03-23 15:38:34.980 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-03-23 15:38:34.985 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-03-23 15:38:40.381 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 16252 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:38:40.386 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:38:41.737 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:38:41.745 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:38:41.814 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:38:42.964 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:38:42.981 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:38:42.982 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:38:42.982 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:38:43.143 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:38:43.143 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2657 ms
+2023-03-23 15:38:43.778 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:38:44.716 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:38:45.466 [redisson-netty-2-13] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:38:45.468 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:38:46.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:38:46.659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:38:46.669 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:38:46.714 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#522fb69:0/SimpleConnection@34de8c9f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56204]
+2023-03-23 15:38:46.804 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.421 seconds (JVM running for 10.99)
+2023-03-23 15:43:07.603 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 21352 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:43:07.608 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:43:08.762 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:43:08.765 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:43:08.802 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:43:09.907 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:43:09.929 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:43:09.930 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:43:09.930 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:43:10.081 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:43:10.082 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2364 ms
+2023-03-23 15:43:10.747 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:43:11.612 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:43:12.360 [redisson-netty-2-13] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:43:12.363 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:43:13.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:43:13.658 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:43:13.666 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:43:13.706 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6369d01c:0/SimpleConnection@34de8c9f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56423]
+2023-03-23 15:43:13.787 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.079 seconds (JVM running for 9.567)
+2023-03-23 15:43:24.003 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:43:24.003 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:43:24.005 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-23 15:44:17.893 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 4628 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:44:17.898 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:44:19.075 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:44:19.077 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:44:19.123 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:44:20.287 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:44:20.305 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:44:20.305 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:44:20.305 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:44:20.467 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:44:20.467 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2464 ms
+2023-03-23 15:44:21.101 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:44:21.986 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:44:22.731 [redisson-netty-2-16] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:44:22.732 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:44:23.918 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:44:23.932 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:44:23.940 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:44:23.978 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#6afced93:0/SimpleConnection@f0deba2 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56572]
+2023-03-23 15:44:24.063 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.115 seconds (JVM running for 9.727)
+2023-03-23 15:44:29.282 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:44:29.282 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:44:29.283 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-23 15:54:08.384 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 18188 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:54:08.389 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:54:15.155 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 7236 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-23 15:54:15.159 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-23 15:54:16.423 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-23 15:54:16.425 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-23 15:54:16.465 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2023-03-23 15:54:17.540 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2023-03-23 15:54:17.557 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:54:17.557 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-23 15:54:17.558 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-23 15:54:17.711 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-23 15:54:17.711 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2473 ms
+2023-03-23 15:54:18.413 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-23 15:54:19.254 [main] INFO  org.redisson.Version - Redisson 3.13.1
+2023-03-23 15:54:20.010 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379
+2023-03-23 15:54:20.018 [redisson-netty-2-19] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for /127.0.0.1:6379
+2023-03-23 15:54:21.193 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2023-03-23 15:54:21.206 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-23 15:54:21.214 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2023-03-23 15:54:21.254 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5c03eb4e:0/SimpleConnection@299e245c [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58658]
+2023-03-23 15:54:21.334 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 7.286 seconds (JVM running for 9.926)
+2023-03-23 15:56:59.937 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 15:56:59.937 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-23 15:56:59.940 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-23 16:54:21.499 [getRedisMessageListenerContainer-2] INFO  com.wang.web.listener.RedisKeyExpirationListener - 失效的Key是:语文书
+2023-03-23 16:54:21.499 [getRedisMessageListenerContainer-3] INFO  com.wang.web.listener.RedisKeyExpirationListener - 失效的Key是:count

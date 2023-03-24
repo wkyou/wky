@@ -179,11 +179,11 @@ public class RedisClient {
      * @param key 键
      * @return 值
      */
-    private String getString(String key) {
+    public String getString(String key) {
         return key == null ? null : stringRedisTemplate.opsForValue().get(key);
     }
 
-    private Object getObj(String key) {
+    public Object getObj(String key) {
         return key == null ? null : redisTemplate.opsForValue().get(key);
     }
 
@@ -215,4 +215,51 @@ public class RedisClient {
         System.out.println(channel + "----" + message);
         redisTemplate.convertAndSend(channel, message);
     }
+
+    /**
+     * 对指定key的键值减一
+     * @param key 键
+     * @return Long
+     */
+    public Long decrBy(String key) {
+        return redisTemplate.opsForValue().decrement(key);
+    }
+
+    public Long incrBy(String key) {
+        RedisAtomicLong entityIdCounter = new RedisAtomicLong(key, redisTemplate.getConnectionFactory());
+        return entityIdCounter.getAndIncrement();
+    }
+
+
+    public <T> void setCacheObject(final String key, final T value)
+    {
+        redisTemplate.opsForValue().set(key, value);
+    }
+    /**
+     * 缓存基本的对象，Integer、String、实体类等
+     *
+     * @param key 缓存的键值
+     * @param value 缓存的值
+     * @param timeout 时间
+     * @param timeUnit 时间颗粒度
+     */
+    public <T> void setCacheObject(final String key, final T value, final Integer timeout, final TimeUnit timeUnit)
+    {
+        redisTemplate.opsForValue().set(key, value, timeout, timeUnit);
+    }
+
+    //设置锁
+    public boolean setLock(String key, String value,Integer timeout,TimeUnit timeUnit){
+        return redisTemplate.opsForValue().setIfAbsent(key,value,timeout,timeUnit);
+    }
+
+    public boolean setLock(String key, String value){
+        return redisTemplate.opsForValue().setIfAbsent(key,value);
+    }
+
+    public boolean unLock(String key){
+        return redisTemplate.delete(key);
+    }
+
+
 }

@@ -1,0 +1,37 @@
+2023-03-07 14:01:45.042 [http-nio-8088-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-07 14:01:45.387 [http-nio-8088-exec-9] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 334 ms. Found 0 Redis repository interfaces.
+2023-03-07 14:01:45.810 [http-nio-8088-exec-9] INFO  com.wang.web.controller.TestController - 这是info日志
+2023-03-07 16:44:36.648 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 4036 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-07 16:44:36.652 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-07 16:44:37.680 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-07 16:44:37.682 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-07 16:44:37.730 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2023-03-07 16:44:39.098 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-07 16:44:39.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-07 16:44:39.129 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-07 16:44:39.129 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-07 16:44:39.294 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-07 16:44:39.295 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2568 ms
+2023-03-07 16:44:39.854 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-07 16:44:42.088 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-07 16:44:42.118 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-07 16:44:42.135 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 6.727 seconds (JVM running for 11.784)
+2023-03-07 16:44:47.753 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 16508 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-07 16:44:47.757 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-07 16:44:48.691 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-07 16:44:48.693 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-07 16:44:48.727 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-03-07 16:44:49.816 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-07 16:44:49.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-07 16:44:49.834 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-07 16:44:49.834 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-07 16:44:49.966 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-07 16:44:49.966 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2147 ms
+2023-03-07 16:44:50.394 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-07 16:44:52.186 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-07 16:44:52.217 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-07 16:44:52.230 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 5.199 seconds (JVM running for 7.743)
+2023-03-07 16:45:51.284 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-07 16:45:51.285 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-07 16:45:51.286 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-07 16:46:51.935 [http-nio-8088-exec-3] INFO  c.w.web.service.strategy.pay.WechatPayServiceImpl - ddddddddwx6a4803b779653fbe

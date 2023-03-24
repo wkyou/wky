@@ -1,0 +1,161 @@
+2023-03-16 11:11:21.628 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 3612 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-16 11:11:21.645 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-16 11:11:23.257 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-16 11:11:23.263 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 11:11:23.354 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2023-03-16 11:11:25.630 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-16 11:11:25.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-16 11:11:25.674 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-16 11:11:25.675 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-16 11:11:25.946 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-16 11:11:25.946 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4187 ms
+2023-03-16 11:11:26.725 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-16 11:11:30.018 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-16 11:11:30.050 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-16 11:11:30.060 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 9.524 seconds (JVM running for 14.558)
+2023-03-16 11:12:35.831 [http-nio-8088-exec-11] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 11:12:35.832 [http-nio-8088-exec-11] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-16 11:12:35.833 [http-nio-8088-exec-11] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-16 11:12:36.094 [http-nio-8088-exec-1] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-16 11:12:36.114 [http-nio-8088-exec-2] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-16 11:12:36.132 [http-nio-8088-exec-14] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-16 11:12:36.150 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-16 11:12:36.167 [http-nio-8088-exec-17] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：67
+2023-03-16 11:12:36.183 [http-nio-8088-exec-5] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：66
+2023-03-16 11:12:36.199 [http-nio-8088-exec-19] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：65
+2023-03-16 11:12:36.219 [http-nio-8088-exec-20] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：64
+2023-03-16 11:12:36.237 [http-nio-8088-exec-3] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：63
+2023-03-16 11:12:36.258 [http-nio-8088-exec-11] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：62
+2023-03-16 11:12:36.273 [http-nio-8088-exec-13] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：61
+2023-03-16 11:12:36.290 [http-nio-8088-exec-18] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：60
+2023-03-16 11:12:36.306 [http-nio-8088-exec-9] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：59
+2023-03-16 11:12:36.321 [http-nio-8088-exec-4] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：58
+2023-03-16 11:12:36.342 [http-nio-8088-exec-12] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：57
+2023-03-16 11:12:36.359 [http-nio-8088-exec-8] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：56
+2023-03-16 11:12:36.376 [http-nio-8088-exec-16] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：55
+2023-03-16 11:12:36.391 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：54
+2023-03-16 11:12:36.405 [http-nio-8088-exec-7] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：53
+2023-03-16 11:12:36.421 [http-nio-8088-exec-15] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：52
+2023-03-16 11:13:23.108 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 18744 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-16 11:13:23.113 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-16 11:13:24.268 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-16 11:13:24.272 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 11:13:24.305 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-03-16 11:13:25.308 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-16 11:13:25.323 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-16 11:13:25.324 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-16 11:13:25.324 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-16 11:13:25.464 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-16 11:13:25.464 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2246 ms
+2023-03-16 11:13:25.992 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-16 11:13:27.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-16 11:13:27.875 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-16 11:13:27.885 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 5.645 seconds (JVM running for 8.28)
+2023-03-16 11:13:44.743 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 11:13:44.743 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-16 11:13:44.745 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-16 11:13:44.911 [http-nio-8088-exec-1] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：51
+2023-03-16 11:14:07.744 [http-nio-8088-exec-13] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.750 [http-nio-8088-exec-1] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.751 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.752 [http-nio-8088-exec-4] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.752 [http-nio-8088-exec-14] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.753 [http-nio-8088-exec-17] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.756 [http-nio-8088-exec-11] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.759 [http-nio-8088-exec-3] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.763 [http-nio-8088-exec-18] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.775 [http-nio-8088-exec-12] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.776 [http-nio-8088-exec-2] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.776 [http-nio-8088-exec-9] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.777 [http-nio-8088-exec-19] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.777 [http-nio-8088-exec-8] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.778 [http-nio-8088-exec-5] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.780 [http-nio-8088-exec-20] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.779 [http-nio-8088-exec-7] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.781 [http-nio-8088-exec-15] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.786 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 11:14:07.792 [http-nio-8088-exec-16] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：50
+2023-03-16 17:11:39.434 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 19548 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-16 17:11:39.438 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-16 17:11:40.742 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-16 17:11:40.746 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 17:11:40.791 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-03-16 17:11:42.005 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-16 17:11:42.047 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-16 17:11:42.048 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-16 17:11:42.048 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-16 17:11:42.238 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-16 17:11:42.238 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2710 ms
+2023-03-16 17:11:42.864 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-16 17:11:44.940 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-16 17:11:44.970 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-16 17:11:44.980 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 6.341 seconds (JVM running for 9.599)
+2023-03-16 17:12:09.505 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 17:12:09.506 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-16 17:12:09.507 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-16 17:15:27.739 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 5680 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-16 17:15:27.742 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-16 17:15:28.898 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-16 17:15:28.909 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 17:15:28.964 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-03-16 17:15:30.049 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-16 17:15:30.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-16 17:15:30.067 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-16 17:15:30.067 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-16 17:15:30.209 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-16 17:15:30.209 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2387 ms
+2023-03-16 17:15:30.680 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-16 17:15:32.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-16 17:15:32.688 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-16 17:15:32.700 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 6.183 seconds (JVM running for 8.651)
+2023-03-16 17:15:41.227 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 17:15:41.228 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-16 17:15:41.231 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-03-16 17:15:42.475 [http-nio-8088-exec-1] INFO  sdk.biz.info - Summary^_^10000^_^null^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.precreate&sign=FnaP2Z3SpdYACG/71yzAOYIWt9w2wYUm4k9OnugdX7Vz3PNxUWTpOHMDxNfJS8VPdhURhAyhVyY9ebdg7lsGvw8Kkyyuk/Nm79TTPLhyDVsCPo+ninBfZcwIatAn6x0SaQNn5FgwznVhqi9An7nBb5heGWwwAZZqnxzRSKgsfMjqHybwZ2a31WyyMDO1g2bJNJYGS2ir1mMXOD4Vxdi3VeI/9m3xArcMQKi3yJrDwahE7k/Z/UEQZHySAG7ME3BYgo6pavw8nrc65vmA10iknqCVeiSQsbXP8QTPyfoGqmdBHiWq5vW76bvYGy/NA56uhASNw9qdLwpULhIC6AKvUw==&version=1.0&app_id=2018010501600088&sign_type=RSA2&timestamp=2023-03-16 17:15:41^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"MZJF2023031601058P","total_amount":0.01,"subject":"测试门诊缴费"}^_^48ms,901ms,47ms^_^trace_id:218edb8816789581424435936ee560
+2023-03-16 17:15:42.475 [http-nio-8088-exec-1] INFO  com.wang.payment.payapi.AlipayServiceImpl - 调用成功
+2023-03-16 17:15:42.476 [http-nio-8088-exec-1] INFO  com.wang.payment.payapi.AlipayServiceImpl - 支付宝订单号MZJF2023031601058P
+2023-03-16 17:15:42.476 [http-nio-8088-exec-1] INFO  com.wang.payment.payapi.AlipayServiceImpl - 付款码urlhttps://qr.alipay.com/bax08178ild0eclw8kkh0016
+2023-03-16 17:45:36.371 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 22796 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-16 17:45:36.374 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-16 17:45:37.371 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-16 17:45:37.374 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 17:45:37.412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-03-16 17:45:38.462 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-16 17:45:38.479 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-16 17:45:38.480 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-16 17:45:38.480 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-16 17:45:38.679 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-16 17:45:38.679 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2234 ms
+2023-03-16 17:45:39.189 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-16 17:45:41.130 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-16 17:45:41.163 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-16 17:45:41.179 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 5.822 seconds (JVM running for 8.195)
+2023-03-16 17:45:48.389 [http-nio-8088-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 17:45:48.391 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-16 17:45:48.392 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-16 17:45:49.338 [http-nio-8088-exec-2] INFO  sdk.biz.info - Summary^_^10000^_^null^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.query&sign=t87pG2aX7AAYpl8SOX/mmTVEpdxOk42ZTdcuBZCqcesNAsOigFTNEiYt5IH/93f//PJT3hn7sUl3ZDZ6k8jw4hPQc4dl7fVWRnrDMhMGWJfTg3H66eRFpcKMGK2fkZ1rXBn8mF8qfW7hQa5sG0GRzgUhnZec8ZrxnJ3zSrfv2DoKPEQ6zIRJ7h+WnGT/R4ns/Nct7I39scw3jr0glN+iE7JJc9DqE88ZGKBlyNJDKQnQYSvbIE0Q4ZpESse4858qqUUjblMyINCpq+8/xDWnip8NgNMajRkYvy2PKKjBtIYmjQ4iaY6ifyVLQT9cgexrSZfZ6rAXHhw6bf/UJr4L/A==&version=1.0&app_id=2018010501600088&sign_type=RSA2&timestamp=2023-03-16 17:45:48^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"MZJF2023031601058P"}^_^35ms,540ms,202ms^_^trace_id:218d070b16789599492794865e3e23
+2023-03-16 17:45:49.339 [http-nio-8088-exec-2] INFO  com.wang.payment.payapi.AlipayServiceImpl - 调用成功
+2023-03-16 17:51:21.011 [main] INFO  com.wang.web.WebapiApplication - Starting WebapiApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 14256 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-16 17:51:21.015 [main] INFO  com.wang.web.WebapiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-16 17:51:22.069 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-16 17:51:22.073 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 17:51:22.114 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-03-16 17:51:23.275 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-16 17:51:23.290 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-16 17:51:23.291 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-16 17:51:23.291 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-16 17:51:23.439 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-16 17:51:23.440 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2352 ms
+2023-03-16 17:51:23.937 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-16 17:51:25.778 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-16 17:51:25.810 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-16 17:51:25.822 [main] INFO  com.wang.web.WebapiApplication - Started WebapiApplication in 5.565 seconds (JVM running for 8.165)
+2023-03-16 17:51:47.542 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 17:51:47.543 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-16 17:51:47.545 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-16 17:51:48.285 [http-nio-8088-exec-1] INFO  sdk.biz.info - Summary^_^10000^_^null^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.precreate&sign=oRGlbNIcFG9i2SmdVEJQNixsauSerOoY/Xe6hU6H6eAH+rhrQB2VoJmzYIZI3Pz5PJ0YCsx1bu6TCttImTXLDB9NhOUPbndfgHmV9i+dIowofDGNs+rZmSh/oEsbvEz28Wm5RDIcvS5lzUgPZ2bkIfy+MB+nbpvFhltj2A7Qr4D0KRaq+HukX6QGwMDPxnC2FZnIDvkq7o9yqee+GDFvT+8msme2SsYEvVUVXAW6LKTMBV12VTsv+hcrd20gfXmdGW/nv56sIkTxYuaKwXJrX5B/C5i2wQwxGYN4hiX/BXbT48RHbGPINHRlbxwEmbyPwjjievuNLThN0L7eHe0bpA==&version=1.0&app_id=2018010501600088&sign_type=RSA2&timestamp=2023-03-16 17:51:47^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"MZJF2023031601058P","total_amount":0.01,"subject":"测试门诊缴费"}^_^45ms,460ms,40ms^_^trace_id:218f479416789603082808328e28ff
+2023-03-16 17:51:48.285 [http-nio-8088-exec-1] INFO  com.wang.payment.payapi.AlipayServiceImpl - 调用成功
+2023-03-16 17:51:48.285 [http-nio-8088-exec-1] INFO  com.wang.payment.payapi.AlipayServiceImpl - 支付宝订单号MZJF2023031601058P
+2023-03-16 17:51:48.286 [http-nio-8088-exec-1] INFO  com.wang.payment.payapi.AlipayServiceImpl - 付款码urlhttps://qr.alipay.com/bax08757grxkqgavqknx0060
+2023-03-16 17:51:48.432 [http-nio-8088-exec-1] INFO  sdk.biz.info - Summary^_^10000^_^null^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.query&sign=U2VYqG/sWdrXBes02mFi0WmAss0Zz4sS/MB34CgG6dBTOKxSPdZUW9isl+L7lPowDfQCDvEbw2BvYtZ5N513tZrQ+sBz92CYzAGxG7QbTEfEVCg3qHT27xJOCD0AYojFsGuQDYaT9DP+CbYBG5zErLgu/+YI+V/bS+EFtzUNIbmu+Dvirq3UiQF7PmYWlpbRvjSfm49tsFQwe4OUj7Q0Q3i/mR9p2gB9Dz+sxxVOJvAtnruMpDOLTt0QPvmVx8E6tL3+nQFaFjI4xr6OUPDDJgsEnAIgiUJtq9SCMiFKoJxp+Pa7okNY0jrSUlqxsU6PYR0sqUrOruGTWCa5CTLreQ==&version=1.0&app_id=2018010501600088&sign_type=RSA2&timestamp=2023-03-16 17:51:48^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json^_^ApplicationParams:biz_content={"out_trade_no":"MZJF2023031601058P"}^_^15ms,103ms,26ms^_^trace_id:218f479416789603085778348e28ff
+2023-03-16 17:51:48.432 [http-nio-8088-exec-1] INFO  com.wang.payment.payapi.AlipayServiceImpl - 调用成功

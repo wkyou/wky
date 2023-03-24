@@ -43,7 +43,7 @@ public class GeneratorPlus {
         stConfig.setCapitalMode(true) // 全局大写命名
                 .setNaming(NamingStrategy.underline_to_camel); // 数据库表映射到实体的命名策略 实体类名驼峰
         //默认全表生成
-        stConfig.setInclude(new String[] {"t_user"}); // 需要生成的表
+        stConfig.setInclude(new String[] {"stock"}); // 需要生成的表
 //        stConfig.setExclude(new String[]{""}); // 排除生成的表
 
 

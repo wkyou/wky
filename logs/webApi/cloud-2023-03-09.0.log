@@ -1,0 +1,1257 @@
+2023-03-09 09:24:58.180 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 25512 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-09 09:24:58.189 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09 09:25:00.010 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-09 09:25:00.015 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-09 09:25:00.063 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2023-03-09 09:25:01.757 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-09 09:25:01.801 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-09 09:25:01.802 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09 09:25:01.802 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-09 09:25:02.037 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09 09:25:02.038 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3742 ms
+2023-03-09 09:25:03.498 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-09 09:25:06.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-09 09:25:06.660 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-09 09:25:06.675 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 9.722 seconds (JVM running for 15.097)
+2023-03-09 09:25:14.907 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 15696 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-09 09:25:14.911 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09 09:25:16.102 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-09 09:25:16.105 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-09 09:25:16.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-03-09 09:25:17.219 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-09 09:25:17.234 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-09 09:25:17.234 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09 09:25:17.235 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-09 09:25:17.362 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09 09:25:17.363 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2317 ms
+2023-03-09 09:25:17.796 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-09 09:25:19.910 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-09 09:25:19.942 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-09 09:25:19.952 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 6.057 seconds (JVM running for 8.369)
+2023-03-09 09:27:38.967 [http-nio-8088-exec-12] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09 09:27:38.967 [http-nio-8088-exec-12] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09 09:27:38.968 [http-nio-8088-exec-12] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-09 09:47:11.055 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 22568 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-09 09:47:11.059 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09 09:47:11.976 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-09 09:47:11.979 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-09 09:47:12.012 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-03-09 09:47:13.011 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-09 09:47:13.040 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-09 09:47:13.040 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09 09:47:13.041 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-09 09:47:13.182 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09 09:47:13.182 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2058 ms
+2023-03-09 09:47:13.689 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-09 09:47:15.813 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-09 09:47:15.845 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-09 09:47:15.860 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 5.732 seconds (JVM running for 8.443)
+2023-03-09 09:47:45.211 [http-nio-8088-exec-15] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09 09:47:45.219 [http-nio-8088-exec-15] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09 09:47:45.225 [http-nio-8088-exec-15] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-03-09 14:22:26.048 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 26664 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-09 14:22:26.051 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09 14:22:27.361 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-09 14:22:27.364 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-09 14:22:27.400 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-03-09 14:22:28.684 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-09 14:22:28.759 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:22:28.759 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09 14:22:28.759 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-09 14:22:28.934 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09 14:22:28.934 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2825 ms
+2023-03-09 14:22:29.527 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-09 14:22:32.060 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:22:32.094 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-09 14:22:32.105 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 7.057 seconds (JVM running for 11.891)
+2023-03-09 14:22:44.517 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09 14:22:44.517 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09 14:22:44.519 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-09 14:25:50.565 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 7900 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-09 14:25:50.569 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09 14:25:51.606 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-09 14:25:51.609 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-09 14:25:51.644 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-03-09 14:25:52.619 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-09 14:25:52.633 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:25:52.634 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09 14:25:52.634 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-09 14:25:52.755 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09 14:25:52.756 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2100 ms
+2023-03-09 14:25:53.191 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-09 14:25:54.849 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:25:54.878 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-09 14:25:54.887 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 5.144 seconds (JVM running for 7.431)
+2023-03-09 14:26:01.336 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09 14:26:01.337 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09 14:26:01.338 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-09 14:26:54.920 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 17768 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-09 14:26:54.923 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09 14:26:55.788 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-09 14:26:55.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-09 14:26:55.823 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-03-09 14:26:56.877 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-09 14:26:56.897 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:26:56.898 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09 14:26:56.898 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-09 14:26:57.058 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09 14:26:57.058 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2076 ms
+2023-03-09 14:26:57.918 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-09 14:27:00.205 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:27:00.234 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-09 14:27:00.245 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 6.076 seconds (JVM running for 8.802)
+2023-03-09 14:27:07.632 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09 14:27:07.633 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09 14:27:07.635 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-09 14:30:05.233 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 8952 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-09 14:30:05.237 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09 14:30:06.286 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-09 14:30:06.288 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-09 14:30:06.321 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-03-09 14:30:07.258 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-09 14:30:07.272 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:30:07.273 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09 14:30:07.273 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-09 14:30:07.394 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09 14:30:07.394 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2064 ms
+2023-03-09 14:30:07.836 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-09 14:30:09.569 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:30:09.599 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-09 14:30:09.616 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 5.21 seconds (JVM running for 7.313)
+2023-03-09 14:30:14.172 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09 14:30:14.173 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09 14:30:14.174 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-09 14:37:12.336 [main] INFO  com.wang.web.WebServicesApplication - Starting WebServicesApplication using Java 11.0.18 on DESKTOP-32AM1JO with PID 28144 (C:\MyFile\project\Java\GK\wky\wky-webApi\target\classes started by 12636 in C:\MyFile\project\Java\GK\wky)
+2023-03-09 14:37:12.340 [main] INFO  com.wang.web.WebServicesApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-09 14:37:13.524 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-09 14:37:13.527 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-09 14:37:13.562 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-03-09 14:37:14.879 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2023-03-09 14:37:14.896 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:37:14.897 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-09 14:37:14.897 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-03-09 14:37:15.028 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-09 14:37:15.028 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2601 ms
+2023-03-09 14:37:15.478 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-09 14:37:17.135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2023-03-09 14:37:17.163 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-09 14:37:17.173 [main] INFO  com.wang.web.WebServicesApplication - Started WebServicesApplication in 5.609 seconds (JVM running for 8.017)
+2023-03-09 14:37:22.796 [http-nio-8088-exec-29] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-09 14:37:22.797 [http-nio-8088-exec-29] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-09 14:37:22.798 [http-nio-8088-exec-29] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-09 14:37:23.090 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.090 [http-nio-8088-exec-1] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.091 [http-nio-8088-exec-83] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.094 [http-nio-8088-exec-77] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.094 [http-nio-8088-exec-79] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.135 [http-nio-8088-exec-67] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.135 [http-nio-8088-exec-94] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.160 [http-nio-8088-exec-2] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.160 [http-nio-8088-exec-42] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.162 [http-nio-8088-exec-70] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.170 [http-nio-8088-exec-87] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.170 [http-nio-8088-exec-86] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.170 [http-nio-8088-exec-36] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.173 [http-nio-8088-exec-15] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.176 [http-nio-8088-exec-90] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.199 [http-nio-8088-exec-100] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.199 [http-nio-8088-exec-85] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.220 [http-nio-8088-exec-93] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.220 [http-nio-8088-exec-66] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.221 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.222 [http-nio-8088-exec-95] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.241 [http-nio-8088-exec-61] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.241 [http-nio-8088-exec-25] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.242 [http-nio-8088-exec-72] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.263 [http-nio-8088-exec-60] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.284 [http-nio-8088-exec-82] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.294 [http-nio-8088-exec-33] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.311 [http-nio-8088-exec-30] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.323 [http-nio-8088-exec-48] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.333 [http-nio-8088-exec-4] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.333 [http-nio-8088-exec-52] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.347 [http-nio-8088-exec-38] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.347 [http-nio-8088-exec-24] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.347 [http-nio-8088-exec-73] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.347 [http-nio-8088-exec-43] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.347 [http-nio-8088-exec-59] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.347 [http-nio-8088-exec-57] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.347 [http-nio-8088-exec-54] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.347 [http-nio-8088-exec-96] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.349 [http-nio-8088-exec-89] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.349 [http-nio-8088-exec-23] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.349 [http-nio-8088-exec-14] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.358 [http-nio-8088-exec-92] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.358 [http-nio-8088-exec-11] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.377 [http-nio-8088-exec-56] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.377 [http-nio-8088-exec-8] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.426 [http-nio-8088-exec-21] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.427 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.426 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.426 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.445 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.465 [http-nio-8088-exec-12] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.465 [http-nio-8088-exec-26] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.465 [http-nio-8088-exec-80] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.465 [http-nio-8088-exec-31] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.465 [http-nio-8088-exec-3] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.465 [http-nio-8088-exec-55] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.465 [http-nio-8088-exec-41] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.467 [http-nio-8088-exec-22] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.468 [http-nio-8088-exec-78] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.482 [http-nio-8088-exec-76] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.482 [http-nio-8088-exec-68] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.482 [http-nio-8088-exec-47] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.482 [http-nio-8088-exec-40] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.483 [http-nio-8088-exec-62] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.484 [http-nio-8088-exec-45] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.517 [http-nio-8088-exec-58] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.517 [http-nio-8088-exec-74] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.517 [http-nio-8088-exec-98] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.528 [http-nio-8088-exec-75] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.528 [http-nio-8088-exec-27] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.528 [http-nio-8088-exec-46] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.545 [http-nio-8088-exec-34] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.545 [http-nio-8088-exec-19] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.545 [http-nio-8088-exec-91] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.568 [http-nio-8088-exec-65] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.568 [http-nio-8088-exec-64] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.568 [http-nio-8088-exec-44] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.569 [http-nio-8088-exec-18] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.568 [http-nio-8088-exec-50] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.568 [http-nio-8088-exec-35] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.568 [http-nio-8088-exec-7] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.568 [http-nio-8088-exec-51] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.572 [http-nio-8088-exec-81] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.572 [http-nio-8088-exec-5] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.572 [http-nio-8088-exec-9] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.572 [http-nio-8088-exec-20] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.592 [http-nio-8088-exec-84] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.592 [http-nio-8088-exec-88] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.592 [http-nio-8088-exec-29] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.592 [http-nio-8088-exec-39] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.601 [http-nio-8088-exec-16] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:37:23.607 [http-nio-8088-exec-32] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.607 [http-nio-8088-exec-63] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.607 [http-nio-8088-exec-13] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.607 [http-nio-8088-exec-17] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.607 [http-nio-8088-exec-71] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.607 [http-nio-8088-exec-53] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:37:23.611 [http-nio-8088-exec-99] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：95
+2023-03-09 14:37:23.616 [http-nio-8088-exec-49] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：97
+2023-03-09 14:38:20.058 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：96
+2023-03-09 14:38:20.837 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：95
+2023-03-09 14:38:21.652 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：94
+2023-03-09 14:38:22.314 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：93
+2023-03-09 14:38:22.854 [http-nio-8088-exec-31] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：92
+2023-03-09 14:38:28.511 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：91
+2023-03-09 14:38:29.099 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：90
+2023-03-09 14:38:29.534 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：89
+2023-03-09 14:38:29.816 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：88
+2023-03-09 14:38:29.995 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：87
+2023-03-09 14:38:30.190 [http-nio-8088-exec-31] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：86
+2023-03-09 14:38:30.373 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：85
+2023-03-09 14:38:30.558 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：84
+2023-03-09 14:38:30.741 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：83
+2023-03-09 14:38:30.906 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：82
+2023-03-09 14:38:31.091 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：81
+2023-03-09 14:38:50.977 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：80
+2023-03-09 14:38:51.031 [http-nio-8088-exec-117] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.038 [http-nio-8088-exec-127] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.042 [http-nio-8088-exec-111] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.072 [http-nio-8088-exec-21] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.089 [http-nio-8088-exec-118] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.090 [http-nio-8088-exec-166] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.095 [http-nio-8088-exec-259] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.103 [http-nio-8088-exec-187] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.117 [http-nio-8088-exec-130] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.117 [http-nio-8088-exec-12] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.126 [http-nio-8088-exec-131] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.134 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.134 [http-nio-8088-exec-67] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.145 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.150 [http-nio-8088-exec-95] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.150 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.150 [http-nio-8088-exec-115] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.150 [http-nio-8088-exec-136] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.158 [http-nio-8088-exec-174] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.167 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.179 [http-nio-8088-exec-280] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.192 [http-nio-8088-exec-201] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.192 [http-nio-8088-exec-285] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.192 [http-nio-8088-exec-278] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.192 [http-nio-8088-exec-206] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.206 [http-nio-8088-exec-173] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.206 [http-nio-8088-exec-31] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.206 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.219 [http-nio-8088-exec-200] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.232 [http-nio-8088-exec-241] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.232 [http-nio-8088-exec-128] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.245 [http-nio-8088-exec-127] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.253 [http-nio-8088-exec-142] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.254 [http-nio-8088-exec-236] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.253 [http-nio-8088-exec-176] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.266 [http-nio-8088-exec-110] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.281 [http-nio-8088-exec-224] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.292 [http-nio-8088-exec-121] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.297 [http-nio-8088-exec-105] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.297 [http-nio-8088-exec-246] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.297 [http-nio-8088-exec-140] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.297 [http-nio-8088-exec-143] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.297 [http-nio-8088-exec-154] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.297 [http-nio-8088-exec-119] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.304 [http-nio-8088-exec-139] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.304 [http-nio-8088-exec-120] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.304 [http-nio-8088-exec-101] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.312 [http-nio-8088-exec-180] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.312 [http-nio-8088-exec-132] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.312 [http-nio-8088-exec-183] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.317 [http-nio-8088-exec-154] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.326 [http-nio-8088-exec-104] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.336 [http-nio-8088-exec-188] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.346 [http-nio-8088-exec-230] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.347 [http-nio-8088-exec-185] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.355 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.365 [http-nio-8088-exec-114] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.365 [http-nio-8088-exec-111] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.365 [http-nio-8088-exec-192] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.366 [http-nio-8088-exec-189] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.368 [http-nio-8088-exec-125] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.380 [http-nio-8088-exec-282] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.384 [http-nio-8088-exec-199] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.384 [http-nio-8088-exec-133] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.403 [http-nio-8088-exec-263] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.403 [http-nio-8088-exec-268] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.405 [http-nio-8088-exec-248] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.405 [http-nio-8088-exec-264] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.418 [http-nio-8088-exec-247] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.427 [http-nio-8088-exec-283] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.441 [http-nio-8088-exec-166] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.442 [http-nio-8088-exec-235] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.444 [http-nio-8088-exec-195] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.452 [http-nio-8088-exec-242] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.462 [http-nio-8088-exec-221] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.474 [http-nio-8088-exec-231] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.483 [http-nio-8088-exec-212] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.483 [http-nio-8088-exec-229] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.484 [http-nio-8088-exec-222] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.484 [http-nio-8088-exec-216] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.488 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.497 [http-nio-8088-exec-150] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.497 [http-nio-8088-exec-240] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.497 [http-nio-8088-exec-153] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.511 [http-nio-8088-exec-225] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.522 [http-nio-8088-exec-165] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.531 [http-nio-8088-exec-229] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.537 [http-nio-8088-exec-102] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.541 [http-nio-8088-exec-118] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.546 [http-nio-8088-exec-149] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.552 [http-nio-8088-exec-159] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.552 [http-nio-8088-exec-172] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.552 [http-nio-8088-exec-156] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.552 [http-nio-8088-exec-169] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.552 [http-nio-8088-exec-163] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.552 [http-nio-8088-exec-151] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.552 [http-nio-8088-exec-106] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.552 [http-nio-8088-exec-167] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.555 [http-nio-8088-exec-147] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.556 [http-nio-8088-exec-181] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.575 [http-nio-8088-exec-156] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.575 [http-nio-8088-exec-172] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.575 [http-nio-8088-exec-169] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.575 [http-nio-8088-exec-12] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.575 [http-nio-8088-exec-117] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.575 [http-nio-8088-exec-236] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.589 [http-nio-8088-exec-108] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.601 [http-nio-8088-exec-178] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.612 [http-nio-8088-exec-169] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.612 [http-nio-8088-exec-236] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.612 [http-nio-8088-exec-120] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.621 [http-nio-8088-exec-107] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.626 [http-nio-8088-exec-172] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.636 [http-nio-8088-exec-193] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.636 [http-nio-8088-exec-190] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.636 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.636 [http-nio-8088-exec-95] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.636 [http-nio-8088-exec-194] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.636 [http-nio-8088-exec-203] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.639 [http-nio-8088-exec-202] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.640 [http-nio-8088-exec-274] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.644 [http-nio-8088-exec-286] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.656 [http-nio-8088-exec-95] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.656 [http-nio-8088-exec-192] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.656 [http-nio-8088-exec-272] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.656 [http-nio-8088-exec-276] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.656 [http-nio-8088-exec-114] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.666 [http-nio-8088-exec-265] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.680 [http-nio-8088-exec-267] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.680 [http-nio-8088-exec-252] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.680 [http-nio-8088-exec-287] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.680 [http-nio-8088-exec-253] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.692 [http-nio-8088-exec-244] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.692 [http-nio-8088-exec-245] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.692 [http-nio-8088-exec-279] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.692 [http-nio-8088-exec-243] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.708 [http-nio-8088-exec-223] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.716 [http-nio-8088-exec-239] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.724 [http-nio-8088-exec-226] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.724 [http-nio-8088-exec-220] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.724 [http-nio-8088-exec-233] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.724 [http-nio-8088-exec-213] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.724 [http-nio-8088-exec-218] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.724 [http-nio-8088-exec-214] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.726 [http-nio-8088-exec-211] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.729 [http-nio-8088-exec-205] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.730 [http-nio-8088-exec-122] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.730 [http-nio-8088-exec-210] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.746 [http-nio-8088-exec-158] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.746 [http-nio-8088-exec-157] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.755 [http-nio-8088-exec-226] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.755 [http-nio-8088-exec-145] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.755 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.755 [http-nio-8088-exec-31] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.760 [http-nio-8088-exec-175] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.760 [http-nio-8088-exec-138] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.760 [http-nio-8088-exec-146] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.760 [http-nio-8088-exec-168] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.760 [http-nio-8088-exec-164] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.760 [http-nio-8088-exec-171] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.760 [http-nio-8088-exec-134] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.760 [http-nio-8088-exec-179] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.772 [http-nio-8088-exec-155] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.772 [http-nio-8088-exec-144] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.772 [http-nio-8088-exec-200] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.773 [http-nio-8088-exec-179] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.773 [http-nio-8088-exec-146] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.777 [http-nio-8088-exec-128] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.787 [http-nio-8088-exec-135] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.787 [http-nio-8088-exec-148] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.799 [http-nio-8088-exec-113] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.809 [http-nio-8088-exec-106] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.824 [http-nio-8088-exec-130] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.833 [http-nio-8088-exec-103] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.833 [http-nio-8088-exec-80] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:51.845 [http-nio-8088-exec-191] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.845 [http-nio-8088-exec-246] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.855 [http-nio-8088-exec-183] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.865 [http-nio-8088-exec-67] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:51.873 [http-nio-8088-exec-136] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.873 [http-nio-8088-exec-261] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.875 [http-nio-8088-exec-197] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.875 [http-nio-8088-exec-198] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.885 [http-nio-8088-exec-188] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.894 [http-nio-8088-exec-185] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:51.898 [http-nio-8088-exec-21] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.898 [http-nio-8088-exec-281] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.898 [http-nio-8088-exec-277] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.916 [http-nio-8088-exec-111] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.925 [http-nio-8088-exec-266] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.925 [http-nio-8088-exec-269] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.935 [http-nio-8088-exec-194] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.944 [http-nio-8088-exec-270] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.951 [http-nio-8088-exec-284] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.951 [http-nio-8088-exec-288] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.951 [http-nio-8088-exec-271] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.951 [http-nio-8088-exec-255] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.959 [http-nio-8088-exec-199] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.968 [http-nio-8088-exec-256] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.968 [http-nio-8088-exec-260] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.975 [http-nio-8088-exec-192] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.975 [http-nio-8088-exec-276] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:51.985 [http-nio-8088-exec-257] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.985 [http-nio-8088-exec-249] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.985 [http-nio-8088-exec-263] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:51.994 [http-nio-8088-exec-227] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:51.994 [http-nio-8088-exec-238] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.012 [http-nio-8088-exec-184] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.021 [http-nio-8088-exec-280] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.030 [http-nio-8088-exec-234] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.030 [http-nio-8088-exec-209] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.030 [http-nio-8088-exec-259] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.040 [http-nio-8088-exec-247] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.051 [http-nio-8088-exec-208] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.051 [http-nio-8088-exec-186] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.051 [http-nio-8088-exec-215] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.059 [http-nio-8088-exec-285] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.059 [http-nio-8088-exec-196] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.068 [http-nio-8088-exec-278] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.068 [http-nio-8088-exec-214] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.075 [http-nio-8088-exec-123] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.085 [http-nio-8088-exec-206] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.086 [http-nio-8088-exec-201] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.087 [http-nio-8088-exec-254] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.096 [http-nio-8088-exec-216] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.106 [http-nio-8088-exec-137] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.113 [http-nio-8088-exec-153] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.122 [http-nio-8088-exec-278] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.131 [http-nio-8088-exec-152] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.139 [http-nio-8088-exec-201] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.139 [http-nio-8088-exec-158] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.139 [http-nio-8088-exec-254] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.146 [http-nio-8088-exec-241] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.159 [http-nio-8088-exec-109] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：79
+2023-03-09 14:38:52.169 [http-nio-8088-exec-175] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.169 [http-nio-8088-exec-168] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.170 [http-nio-8088-exec-116] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.175 [http-nio-8088-exec-176] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.183 [http-nio-8088-exec-112] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.192 [http-nio-8088-exec-155] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.192 [http-nio-8088-exec-121] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.192 [http-nio-8088-exec-117] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.192 [http-nio-8088-exec-131] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.198 [http-nio-8088-exec-177] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.206 [http-nio-8088-exec-139] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.206 [http-nio-8088-exec-101] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.217 [http-nio-8088-exec-132] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.224 [http-nio-8088-exec-12] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.232 [http-nio-8088-exec-126] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.232 [http-nio-8088-exec-115] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.232 [http-nio-8088-exec-161] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.232 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.238 [http-nio-8088-exec-169] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.251 [http-nio-8088-exec-172] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.251 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.251 [http-nio-8088-exec-230] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.263 [http-nio-8088-exec-204] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.264 [http-nio-8088-exec-162] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.280 [http-nio-8088-exec-125] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.288 [http-nio-8088-exec-273] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.288 [http-nio-8088-exec-274] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.288 [http-nio-8088-exec-202] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.292 [http-nio-8088-exec-114] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.301 [http-nio-8088-exec-188] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.301 [http-nio-8088-exec-204] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.309 [http-nio-8088-exec-272] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.313 [http-nio-8088-exec-250] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.322 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.329 [http-nio-8088-exec-251] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.329 [http-nio-8088-exec-228] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.336 [http-nio-8088-exec-268] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.336 [http-nio-8088-exec-253] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.336 [http-nio-8088-exec-287] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.340 [http-nio-8088-exec-243] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.350 [http-nio-8088-exec-217] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.357 [http-nio-8088-exec-166] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.357 [http-nio-8088-exec-283] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.357 [http-nio-8088-exec-235] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.368 [http-nio-8088-exec-220] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.368 [http-nio-8088-exec-239] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.368 [http-nio-8088-exec-233] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.379 [http-nio-8088-exec-124] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.387 [http-nio-8088-exec-242] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.387 [http-nio-8088-exec-231] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.392 [http-nio-8088-exec-210] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.403 [http-nio-8088-exec-213] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.409 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.410 [http-nio-8088-exec-141] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.418 [http-nio-8088-exec-240] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.425 [http-nio-8088-exec-219] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.425 [http-nio-8088-exec-187] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.436 [http-nio-8088-exec-206] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.444 [http-nio-8088-exec-127] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.453 [http-nio-8088-exec-163] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.459 [http-nio-8088-exec-165] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.459 [http-nio-8088-exec-182] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.459 [http-nio-8088-exec-118] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.475 [http-nio-8088-exec-146] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.481 [http-nio-8088-exec-158] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.487 [http-nio-8088-exec-105] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.487 [http-nio-8088-exec-110] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.490 [http-nio-8088-exec-224] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.490 [http-nio-8088-exec-207] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.492 [http-nio-8088-exec-144] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.496 [http-nio-8088-exec-119] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.504 [http-nio-8088-exec-175] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.515 [http-nio-8088-exec-143] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.524 [http-nio-8088-exec-168] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.524 [http-nio-8088-exec-258] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.533 [http-nio-8088-exec-129] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.533 [http-nio-8088-exec-170] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.544 [http-nio-8088-exec-131] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.549 [http-nio-8088-exec-178] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.554 [http-nio-8088-exec-120] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.558 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.558 [http-nio-8088-exec-203] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.558 [http-nio-8088-exec-107] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.566 [http-nio-8088-exec-126] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.576 [http-nio-8088-exec-193] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.581 [http-nio-8088-exec-275] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.581 [http-nio-8088-exec-197] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.581 [http-nio-8088-exec-189] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.581 [http-nio-8088-exec-261] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.583 [http-nio-8088-exec-286] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.590 [http-nio-8088-exec-282] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.598 [http-nio-8088-exec-277] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.598 [http-nio-8088-exec-262] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.598 [http-nio-8088-exec-174] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.604 [http-nio-8088-exec-269] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:52.609 [http-nio-8088-exec-265] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.609 [http-nio-8088-exec-284] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.609 [http-nio-8088-exec-197] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.609 [http-nio-8088-exec-271] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.609 [http-nio-8088-exec-288] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.616 [http-nio-8088-exec-248] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.616 [http-nio-8088-exec-252] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.616 [http-nio-8088-exec-267] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.626 [http-nio-8088-exec-264] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.634 [http-nio-8088-exec-271] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.634 [http-nio-8088-exec-245] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.634 [http-nio-8088-exec-256] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.634 [http-nio-8088-exec-195] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.636 [http-nio-8088-exec-211] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.641 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.649 [http-nio-8088-exec-218] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.658 [http-nio-8088-exec-237] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.666 [http-nio-8088-exec-232] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.671 [http-nio-8088-exec-209] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.671 [http-nio-8088-exec-195] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.682 [http-nio-8088-exec-212] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.682 [http-nio-8088-exec-222] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.689 [http-nio-8088-exec-122] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.702 [http-nio-8088-exec-215] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.702 [http-nio-8088-exec-196] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.708 [http-nio-8088-exec-150] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.719 [http-nio-8088-exec-225] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:52.726 [http-nio-8088-exec-160] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.731 [http-nio-8088-exec-138] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.731 [http-nio-8088-exec-102] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.731 [http-nio-8088-exec-229] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.731 [http-nio-8088-exec-171] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.746 [http-nio-8088-exec-167] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.751 [http-nio-8088-exec-149] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.751 [http-nio-8088-exec-151] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.760 [http-nio-8088-exec-278] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.761 [http-nio-8088-exec-179] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.761 [http-nio-8088-exec-201] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.762 [http-nio-8088-exec-200] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.776 [http-nio-8088-exec-102] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:52.795 [http-nio-8088-exec-116] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.807 [http-nio-8088-exec-140] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.818 [http-nio-8088-exec-148] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.819 [http-nio-8088-exec-151] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.828 [http-nio-8088-exec-109] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:52.834 [http-nio-8088-exec-110] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.843 [http-nio-8088-exec-113] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.847 [http-nio-8088-exec-207] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.852 [http-nio-8088-exec-104] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.852 [http-nio-8088-exec-108] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.860 [http-nio-8088-exec-155] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.867 [http-nio-8088-exec-80] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.867 [http-nio-8088-exec-103] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.887 [http-nio-8088-exec-236] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.889 [http-nio-8088-exec-177] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.906 [http-nio-8088-exec-139] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:52.925 [http-nio-8088-exec-170] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:52.953 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:52.983 [http-nio-8088-exec-183] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.983 [http-nio-8088-exec-172] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.983 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:52.996 [http-nio-8088-exec-185] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.011 [http-nio-8088-exec-125] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.044 [http-nio-8088-exec-170] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.077 [http-nio-8088-exec-266] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.103 [http-nio-8088-exec-189] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.110 [http-nio-8088-exec-255] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.110 [http-nio-8088-exec-275] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.110 [http-nio-8088-exec-279] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.111 [http-nio-8088-exec-244] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.111 [http-nio-8088-exec-263] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.119 [http-nio-8088-exec-248] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.119 [http-nio-8088-exec-252] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.137 [http-nio-8088-exec-251] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.149 [http-nio-8088-exec-255] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.149 [http-nio-8088-exec-223] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.159 [http-nio-8088-exec-205] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.171 [http-nio-8088-exec-252] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.175 [http-nio-8088-exec-235] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.178 [http-nio-8088-exec-248] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.187 [http-nio-8088-exec-268] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.200 [http-nio-8088-exec-247] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.210 [http-nio-8088-exec-208] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.215 [http-nio-8088-exec-285] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.220 [http-nio-8088-exec-218] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.225 [http-nio-8088-exec-123] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.236 [http-nio-8088-exec-235] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.246 [http-nio-8088-exec-157] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.255 [http-nio-8088-exec-31] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.255 [http-nio-8088-exec-145] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.255 [http-nio-8088-exec-226] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.255 [http-nio-8088-exec-213] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.263 [http-nio-8088-exec-134] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.263 [http-nio-8088-exec-164] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.271 [http-nio-8088-exec-137] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:53.271 [http-nio-8088-exec-152] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:53.271 [http-nio-8088-exec-141] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:53.281 [http-nio-8088-exec-142] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.282 [http-nio-8088-exec-254] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.290 [http-nio-8088-exec-160] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.300 [http-nio-8088-exec-138] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.308 [http-nio-8088-exec-128] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:53.336 [http-nio-8088-exec-181] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.341 [http-nio-8088-exec-149] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.344 [http-nio-8088-exec-156] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.346 [http-nio-8088-exec-180] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.353 [http-nio-8088-exec-201] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.355 [http-nio-8088-exec-200] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.383 [http-nio-8088-exec-138] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.392 [http-nio-8088-exec-121] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.401 [http-nio-8088-exec-117] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.402 [http-nio-8088-exec-191] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.402 [http-nio-8088-exec-175] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.412 [http-nio-8088-exec-168] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.419 [http-nio-8088-exec-109] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.436 [http-nio-8088-exec-258] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.445 [http-nio-8088-exec-108] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:53.457 [http-nio-8088-exec-136] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:53.467 [http-nio-8088-exec-190] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.475 [http-nio-8088-exec-131] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.475 [http-nio-8088-exec-236] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.487 [http-nio-8088-exec-161] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:53.496 [http-nio-8088-exec-133] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.496 [http-nio-8088-exec-177] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.496 [http-nio-8088-exec-162] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.508 [http-nio-8088-exec-281] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.515 [http-nio-8088-exec-139] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.524 [http-nio-8088-exec-95] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.533 [http-nio-8088-exec-199] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.547 [http-nio-8088-exec-204] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.570 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.570 [http-nio-8088-exec-177] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.582 [http-nio-8088-exec-188] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.582 [http-nio-8088-exec-262] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.599 [http-nio-8088-exec-125] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.601 [http-nio-8088-exec-272] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.601 [http-nio-8088-exec-276] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.603 [http-nio-8088-exec-238] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.604 [http-nio-8088-exec-192] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.616 [http-nio-8088-exec-249] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.625 [http-nio-8088-exec-266] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:53.636 [http-nio-8088-exec-243] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.636 [http-nio-8088-exec-276] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.642 [http-nio-8088-exec-244] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.646 [http-nio-8088-exec-245] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.646 [http-nio-8088-exec-256] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.646 [http-nio-8088-exec-211] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.651 [http-nio-8088-exec-251] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:53.661 [http-nio-8088-exec-220] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.670 [http-nio-8088-exec-186] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.670 [http-nio-8088-exec-214] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.679 [http-nio-8088-exec-124] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.684 [http-nio-8088-exec-242] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.685 [http-nio-8088-exec-210] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.693 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.703 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.710 [http-nio-8088-exec-153] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.710 [http-nio-8088-exec-145] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.710 [http-nio-8088-exec-218] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.710 [http-nio-8088-exec-164] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.710 [http-nio-8088-exec-241] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.719 [http-nio-8088-exec-171] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.719 [http-nio-8088-exec-229] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.720 [http-nio-8088-exec-179] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.726 [http-nio-8088-exec-176] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.735 [http-nio-8088-exec-118] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.735 [http-nio-8088-exec-135] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.742 [http-nio-8088-exec-145] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.742 [http-nio-8088-exec-254] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.742 [http-nio-8088-exec-224] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.749 [http-nio-8088-exec-119] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.749 [http-nio-8088-exec-102] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.760 [http-nio-8088-exec-128] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:53.766 [http-nio-8088-exec-101] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.771 [http-nio-8088-exec-246] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.776 [http-nio-8088-exec-132] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.782 [http-nio-8088-exec-129] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.787 [http-nio-8088-exec-67] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.787 [http-nio-8088-exec-104] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.793 [http-nio-8088-exec-175] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.793 [http-nio-8088-exec-117] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.793 [http-nio-8088-exec-155] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.803 [http-nio-8088-exec-80] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.812 [http-nio-8088-exec-230] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.824 [http-nio-8088-exec-120] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.831 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.831 [http-nio-8088-exec-111] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.831 [http-nio-8088-exec-261] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.831 [http-nio-8088-exec-194] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.833 [http-nio-8088-exec-21] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:53.841 [http-nio-8088-exec-183] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:53.851 [http-nio-8088-exec-133] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.861 [http-nio-8088-exec-288] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.861 [http-nio-8088-exec-250] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.872 [http-nio-8088-exec-170] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.872 [http-nio-8088-exec-261] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.872 [http-nio-8088-exec-269] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.882 [http-nio-8088-exec-184] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:53.891 [http-nio-8088-exec-189] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.902 [http-nio-8088-exec-227] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.914 [http-nio-8088-exec-280] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.925 [http-nio-8088-exec-263] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.925 [http-nio-8088-exec-275] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.931 [http-nio-8088-exec-253] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.943 [http-nio-8088-exec-259] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.943 [http-nio-8088-exec-271] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.943 [http-nio-8088-exec-238] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.955 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.955 [http-nio-8088-exec-173] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:53.964 [http-nio-8088-exec-239] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.974 [http-nio-8088-exec-248] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.980 [http-nio-8088-exec-256] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:53.987 [http-nio-8088-exec-211] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:53.997 [http-nio-8088-exec-285] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:53.997 [http-nio-8088-exec-208] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:53.997 [http-nio-8088-exec-196] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:53.997 [http-nio-8088-exec-247] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:53.998 [http-nio-8088-exec-215] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:54.002 [http-nio-8088-exec-235] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.010 [http-nio-8088-exec-219] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.022 [http-nio-8088-exec-213] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.031 [http-nio-8088-exec-225] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.037 [http-nio-8088-exec-226] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.037 [http-nio-8088-exec-152] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.049 [http-nio-8088-exec-163] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.049 [http-nio-8088-exec-167] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.049 [http-nio-8088-exec-182] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.056 [http-nio-8088-exec-154] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：78
+2023-03-09 14:38:54.070 [http-nio-8088-exec-106] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.087 [http-nio-8088-exec-218] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.095 [http-nio-8088-exec-116] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:54.105 [http-nio-8088-exec-130] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.117 [http-nio-8088-exec-143] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.126 [http-nio-8088-exec-145] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.127 [http-nio-8088-exec-149] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.127 [http-nio-8088-exec-180] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.139 [http-nio-8088-exec-148] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.146 [http-nio-8088-exec-12] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:54.152 [http-nio-8088-exec-207] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.153 [http-nio-8088-exec-191] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.160 [http-nio-8088-exec-198] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:54.160 [http-nio-8088-exec-169] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:54.166 [http-nio-8088-exec-109] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.166 [http-nio-8088-exec-203] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.166 [http-nio-8088-exec-258] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.166 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.166 [http-nio-8088-exec-178] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.177 [http-nio-8088-exec-126] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:54.190 [http-nio-8088-exec-108] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.199 [http-nio-8088-exec-270] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.199 [http-nio-8088-exec-202] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.199 [http-nio-8088-exec-273] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.205 [http-nio-8088-exec-161] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.217 [http-nio-8088-exec-282] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.221 [http-nio-8088-exec-174] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.228 [http-nio-8088-exec-284] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.236 [http-nio-8088-exec-277] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.241 [http-nio-8088-exec-265] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.241 [http-nio-8088-exec-197] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.250 [http-nio-8088-exec-257] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.255 [http-nio-8088-exec-111] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.259 [http-nio-8088-exec-267] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.268 [http-nio-8088-exec-177] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.273 [http-nio-8088-exec-287] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.273 [http-nio-8088-exec-264] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.274 [http-nio-8088-exec-221] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.280 [http-nio-8088-exec-228] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.280 [http-nio-8088-exec-279] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.289 [http-nio-8088-exec-288] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.289 [http-nio-8088-exec-250] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.299 [http-nio-8088-exec-217] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.304 [http-nio-8088-exec-166] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.312 [http-nio-8088-exec-223] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.317 [http-nio-8088-exec-280] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.324 [http-nio-8088-exec-205] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:54.328 [http-nio-8088-exec-252] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.337 [http-nio-8088-exec-231] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.341 [http-nio-8088-exec-212] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.348 [http-nio-8088-exec-122] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.354 [http-nio-8088-exec-232] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.354 [http-nio-8088-exec-209] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.354 [http-nio-8088-exec-195] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.364 [http-nio-8088-exec-216] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.369 [http-nio-8088-exec-268] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.369 [http-nio-8088-exec-245] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.376 [http-nio-8088-exec-123] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.376 [http-nio-8088-exec-159] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.384 [http-nio-8088-exec-248] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.390 [http-nio-8088-exec-31] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.400 [http-nio-8088-exec-240] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.400 [http-nio-8088-exec-187] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.409 [http-nio-8088-exec-147] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.418 [http-nio-8088-exec-208] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:54.418 [http-nio-8088-exec-285] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:54.426 [http-nio-8088-exec-141] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.437 [http-nio-8088-exec-206] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.444 [http-nio-8088-exec-165] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.453 [http-nio-8088-exec-142] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.461 [http-nio-8088-exec-146] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.466 [http-nio-8088-exec-213] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.472 [http-nio-8088-exec-144] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.473 [http-nio-8088-exec-112] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.481 [http-nio-8088-exec-179] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.488 [http-nio-8088-exec-176] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.488 [http-nio-8088-exec-163] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.495 [http-nio-8088-exec-140] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.503 [http-nio-8088-exec-200] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.510 [http-nio-8088-exec-151] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.510 [http-nio-8088-exec-106] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.521 [http-nio-8088-exec-121] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.535 [http-nio-8088-exec-119] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.542 [http-nio-8088-exec-115] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：77
+2023-03-09 14:38:54.550 [http-nio-8088-exec-143] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.558 [http-nio-8088-exec-129] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.558 [http-nio-8088-exec-149] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.558 [http-nio-8088-exec-132] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.566 [http-nio-8088-exec-107] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.574 [http-nio-8088-exec-136] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.579 [http-nio-8088-exec-286] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.584 [http-nio-8088-exec-193] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.588 [http-nio-8088-exec-274] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.593 [http-nio-8088-exec-190] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.599 [http-nio-8088-exec-236] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.609 [http-nio-8088-exec-203] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.610 [http-nio-8088-exec-109] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.610 [http-nio-8088-exec-178] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.616 [http-nio-8088-exec-162] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.616 [http-nio-8088-exec-114] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.623 [http-nio-8088-exec-120] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.628 [http-nio-8088-exec-194] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.628 [http-nio-8088-exec-260] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.628 [http-nio-8088-exec-21] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.628 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.640 [http-nio-8088-exec-204] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.646 [http-nio-8088-exec-199] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.654 [http-nio-8088-exec-262] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.661 [http-nio-8088-exec-269] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.661 [http-nio-8088-exec-192] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.661 [http-nio-8088-exec-283] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.670 [http-nio-8088-exec-249] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.677 [http-nio-8088-exec-189] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.683 [http-nio-8088-exec-233] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.693 [http-nio-8088-exec-255] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:54.704 [http-nio-8088-exec-237] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.714 [http-nio-8088-exec-243] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.732 [http-nio-8088-exec-250] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.739 [http-nio-8088-exec-244] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.745 [http-nio-8088-exec-222] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.745 [http-nio-8088-exec-259] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.751 [http-nio-8088-exec-251] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.780 [http-nio-8088-exec-220] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.789 [http-nio-8088-exec-150] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.797 [http-nio-8088-exec-157] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.797 [http-nio-8088-exec-186] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.803 [http-nio-8088-exec-124] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.803 [http-nio-8088-exec-210] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.803 [http-nio-8088-exec-134] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.815 [http-nio-8088-exec-127] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.819 [http-nio-8088-exec-247] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:54.823 [http-nio-8088-exec-137] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:54.828 [http-nio-8088-exec-215] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:54.832 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:54.836 [http-nio-8088-exec-241] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.836 [http-nio-8088-exec-105] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.836 [http-nio-8088-exec-219] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.842 [http-nio-8088-exec-158] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.842 [http-nio-8088-exec-153] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.850 [http-nio-8088-exec-229] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.850 [http-nio-8088-exec-171] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.850 [http-nio-8088-exec-160] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.859 [http-nio-8088-exec-141] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:54.863 [http-nio-8088-exec-156] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.872 [http-nio-8088-exec-182] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.872 [http-nio-8088-exec-118] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.880 [http-nio-8088-exec-135] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.889 [http-nio-8088-exec-201] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.889 [http-nio-8088-exec-113] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.889 [http-nio-8088-exec-110] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.894 [http-nio-8088-exec-102] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.904 [http-nio-8088-exec-103] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.913 [http-nio-8088-exec-168] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.919 [http-nio-8088-exec-246] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.928 [http-nio-8088-exec-101] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:54.936 [http-nio-8088-exec-155] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.936 [http-nio-8088-exec-175] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:54.950 [http-nio-8088-exec-207] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:54.962 [http-nio-8088-exec-131] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.962 [http-nio-8088-exec-191] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.970 [http-nio-8088-exec-258] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:54.984 [http-nio-8088-exec-149] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:54.994 [http-nio-8088-exec-185] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.994 [http-nio-8088-exec-95] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:54.994 [http-nio-8088-exec-139] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.005 [http-nio-8088-exec-188] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.005 [http-nio-8088-exec-178] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.016 [http-nio-8088-exec-234] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.021 [http-nio-8088-exec-272] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.029 [http-nio-8088-exec-133] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.029 [http-nio-8088-exec-194] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.030 [http-nio-8088-exec-265] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.034 [http-nio-8088-exec-261] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.043 [http-nio-8088-exec-184] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.043 [http-nio-8088-exec-177] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.043 [http-nio-8088-exec-264] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.050 [http-nio-8088-exec-228] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.060 [http-nio-8088-exec-263] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.060 [http-nio-8088-exec-266] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.069 [http-nio-8088-exec-276] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.077 [http-nio-8088-exec-275] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.088 [http-nio-8088-exec-253] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.096 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.096 [http-nio-8088-exec-271] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.105 [http-nio-8088-exec-173] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.111 [http-nio-8088-exec-223] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.118 [http-nio-8088-exec-239] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.124 [http-nio-8088-exec-214] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.129 [http-nio-8088-exec-256] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.137 [http-nio-8088-exec-211] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.137 [http-nio-8088-exec-242] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.138 [http-nio-8088-exec-245] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.139 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.139 [http-nio-8088-exec-196] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.149 [http-nio-8088-exec-123] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.155 [http-nio-8088-exec-235] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.164 [http-nio-8088-exec-164] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.164 [http-nio-8088-exec-278] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.173 [http-nio-8088-exec-181] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.179 [http-nio-8088-exec-167] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.183 [http-nio-8088-exec-254] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.188 [http-nio-8088-exec-224] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.197 [http-nio-8088-exec-142] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.205 [http-nio-8088-exec-165] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.210 [http-nio-8088-exec-154] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.219 [http-nio-8088-exec-138] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.219 [http-nio-8088-exec-112] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.219 [http-nio-8088-exec-218] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.220 [http-nio-8088-exec-116] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.228 [http-nio-8088-exec-128] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.239 [http-nio-8088-exec-130] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.245 [http-nio-8088-exec-145] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.253 [http-nio-8088-exec-106] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.253 [http-nio-8088-exec-104] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.253 [http-nio-8088-exec-151] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.253 [http-nio-8088-exec-67] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.264 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:55.264 [http-nio-8088-exec-198] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：76
+2023-03-09 14:38:55.277 [http-nio-8088-exec-143] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.284 [http-nio-8088-exec-80] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.292 [http-nio-8088-exec-172] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.301 [http-nio-8088-exec-132] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.310 [http-nio-8088-exec-108] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.310 [http-nio-8088-exec-155] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.318 [http-nio-8088-exec-114] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.318 [http-nio-8088-exec-270] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.318 [http-nio-8088-exec-273] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.318 [http-nio-8088-exec-202] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.328 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.336 [http-nio-8088-exec-161] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.341 [http-nio-8088-exec-284] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.341 [http-nio-8088-exec-282] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.341 [http-nio-8088-exec-174] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.350 [http-nio-8088-exec-260] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.350 [http-nio-8088-exec-257] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.359 [http-nio-8088-exec-125] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.371 [http-nio-8088-exec-170] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.371 [http-nio-8088-exec-267] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.371 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.380 [http-nio-8088-exec-287] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.390 [http-nio-8088-exec-227] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.399 [http-nio-8088-exec-221] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.410 [http-nio-8088-exec-217] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.425 [http-nio-8088-exec-238] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.435 [http-nio-8088-exec-166] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.448 [http-nio-8088-exec-280] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.456 [http-nio-8088-exec-212] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.456 [http-nio-8088-exec-266] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.456 [http-nio-8088-exec-231] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.461 [http-nio-8088-exec-232] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.461 [http-nio-8088-exec-209] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.461 [http-nio-8088-exec-122] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.461 [http-nio-8088-exec-195] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.462 [http-nio-8088-exec-271] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.470 [http-nio-8088-exec-268] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.479 [http-nio-8088-exec-216] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.490 [http-nio-8088-exec-248] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.490 [http-nio-8088-exec-220] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.490 [http-nio-8088-exec-159] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.490 [http-nio-8088-exec-251] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.500 [http-nio-8088-exec-186] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.509 [http-nio-8088-exec-214] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.509 [http-nio-8088-exec-211] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.509 [http-nio-8088-exec-215] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.509 [http-nio-8088-exec-127] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.509 [http-nio-8088-exec-240] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.510 [http-nio-8088-exec-187] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.516 [http-nio-8088-exec-247] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.525 [http-nio-8088-exec-226] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.536 [http-nio-8088-exec-152] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.545 [http-nio-8088-exec-225] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:55.557 [http-nio-8088-exec-206] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.563 [http-nio-8088-exec-229] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.573 [http-nio-8088-exec-158] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.582 [http-nio-8088-exec-171] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.594 [http-nio-8088-exec-176] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.594 [http-nio-8088-exec-163] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.594 [http-nio-8088-exec-179] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.600 [http-nio-8088-exec-140] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.609 [http-nio-8088-exec-180] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.621 [http-nio-8088-exec-200] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.631 [http-nio-8088-exec-148] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.631 [http-nio-8088-exec-201] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.631 [http-nio-8088-exec-113] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.642 [http-nio-8088-exec-12] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.654 [http-nio-8088-exec-119] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.654 [http-nio-8088-exec-169] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.662 [http-nio-8088-exec-115] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.662 [http-nio-8088-exec-106] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.662 [http-nio-8088-exec-230] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.671 [http-nio-8088-exec-129] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.675 [http-nio-8088-exec-67] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.680 [http-nio-8088-exec-126] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.688 [http-nio-8088-exec-281] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.697 [http-nio-8088-exec-175] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.697 [http-nio-8088-exec-286] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.697 [http-nio-8088-exec-190] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.697 [http-nio-8088-exec-274] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.704 [http-nio-8088-exec-203] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.704 [http-nio-8088-exec-236] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.715 [http-nio-8088-exec-109] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.726 [http-nio-8088-exec-183] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:55.736 [http-nio-8088-exec-162] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.743 [http-nio-8088-exec-277] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.743 [http-nio-8088-exec-120] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.752 [http-nio-8088-exec-197] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.752 [http-nio-8088-exec-185] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.753 [http-nio-8088-exec-111] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.762 [http-nio-8088-exec-178] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.777 [http-nio-8088-exec-279] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.788 [http-nio-8088-exec-272] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.788 [http-nio-8088-exec-257] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.796 [http-nio-8088-exec-288] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.803 [http-nio-8088-exec-269] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.803 [http-nio-8088-exec-192] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.810 [http-nio-8088-exec-189] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.817 [http-nio-8088-exec-249] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.825 [http-nio-8088-exec-283] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:55.836 [http-nio-8088-exec-205] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.847 [http-nio-8088-exec-255] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.856 [http-nio-8088-exec-263] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:55.861 [http-nio-8088-exec-237] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.861 [http-nio-8088-exec-252] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.861 [http-nio-8088-exec-243] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.861 [http-nio-8088-exec-250] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.871 [http-nio-8088-exec-97] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.879 [http-nio-8088-exec-222] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.879 [http-nio-8088-exec-150] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.879 [http-nio-8088-exec-259] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.886 [http-nio-8088-exec-157] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.899 [http-nio-8088-exec-134] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.906 [http-nio-8088-exec-245] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.910 [http-nio-8088-exec-196] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.917 [http-nio-8088-exec-208] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:55.917 [http-nio-8088-exec-285] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:55.925 [http-nio-8088-exec-241] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.925 [http-nio-8088-exec-153] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.925 [http-nio-8088-exec-6] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.933 [http-nio-8088-exec-146] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.933 [http-nio-8088-exec-160] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.940 [http-nio-8088-exec-144] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:55.948 [http-nio-8088-exec-213] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.957 [http-nio-8088-exec-141] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.966 [http-nio-8088-exec-167] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:55.971 [http-nio-8088-exec-156] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.976 [http-nio-8088-exec-182] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.977 [http-nio-8088-exec-118] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:55.982 [http-nio-8088-exec-110] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.991 [http-nio-8088-exec-135] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:55.997 [http-nio-8088-exec-138] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:55.997 [http-nio-8088-exec-117] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.005 [http-nio-8088-exec-102] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.005 [http-nio-8088-exec-128] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.016 [http-nio-8088-exec-103] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:56.016 [http-nio-8088-exec-168] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:56.023 [http-nio-8088-exec-246] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.032 [http-nio-8088-exec-101] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.032 [http-nio-8088-exec-107] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.036 [http-nio-8088-exec-207] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:56.036 [http-nio-8088-exec-193] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：75
+2023-03-09 14:38:56.046 [http-nio-8088-exec-131] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.046 [http-nio-8088-exec-191] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.054 [http-nio-8088-exec-149] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:56.064 [http-nio-8088-exec-258] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.071 [http-nio-8088-exec-21] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:56.077 [http-nio-8088-exec-108] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:56.115 [http-nio-8088-exec-273] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.115 [http-nio-8088-exec-95] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.125 [http-nio-8088-exec-188] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:56.134 [http-nio-8088-exec-174] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.139 [http-nio-8088-exec-234] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.139 [http-nio-8088-exec-199] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.144 [http-nio-8088-exec-262] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.144 [http-nio-8088-exec-194] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.144 [http-nio-8088-exec-133] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.144 [http-nio-8088-exec-265] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.149 [http-nio-8088-exec-170] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.149 [http-nio-8088-exec-267] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.149 [http-nio-8088-exec-184] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.149 [http-nio-8088-exec-228] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.149 [http-nio-8088-exec-233] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.149 [http-nio-8088-exec-264] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.158 [http-nio-8088-exec-275] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:56.168 [http-nio-8088-exec-253] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.173 [http-nio-8088-exec-227] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.178 [http-nio-8088-exec-173] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.183 [http-nio-8088-exec-239] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.183 [http-nio-8088-exec-31] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.183 [http-nio-8088-exec-210] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.183 [http-nio-8088-exec-242] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.183 [http-nio-8088-exec-124] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.188 [http-nio-8088-exec-147] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.197 [http-nio-8088-exec-137] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.202 [http-nio-8088-exec-123] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.207 [http-nio-8088-exec-105] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.207 [http-nio-8088-exec-219] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.207 [http-nio-8088-exec-235] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.212 [http-nio-8088-exec-164] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.217 [http-nio-8088-exec-181] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:56.221 [http-nio-8088-exec-142] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：67
+2023-03-09 14:38:56.221 [http-nio-8088-exec-224] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：67
+2023-03-09 14:38:56.226 [http-nio-8088-exec-165] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.233 [http-nio-8088-exec-112] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.233 [http-nio-8088-exec-116] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.242 [http-nio-8088-exec-154] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.250 [http-nio-8088-exec-121] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.250 [http-nio-8088-exec-218] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.254 [http-nio-8088-exec-130] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.260 [http-nio-8088-exec-145] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:56.264 [http-nio-8088-exec-136] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.264 [http-nio-8088-exec-104] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.269 [http-nio-8088-exec-37] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:56.274 [http-nio-8088-exec-80] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.274 [http-nio-8088-exec-143] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.279 [http-nio-8088-exec-132] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:56.284 [http-nio-8088-exec-172] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.289 [http-nio-8088-exec-270] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:56.289 [http-nio-8088-exec-139] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:56.289 [http-nio-8088-exec-114] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:56.289 [http-nio-8088-exec-155] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:56.289 [http-nio-8088-exec-202] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:56.294 [http-nio-8088-exec-161] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.294 [http-nio-8088-exec-69] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.294 [http-nio-8088-exec-204] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.300 [http-nio-8088-exec-284] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:56.300 [http-nio-8088-exec-282] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：74
+2023-03-09 14:38:56.307 [http-nio-8088-exec-125] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.311 [http-nio-8088-exec-260] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：68
+2023-03-09 14:38:56.316 [http-nio-8088-exec-261] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.320 [http-nio-8088-exec-177] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.320 [http-nio-8088-exec-28] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.320 [http-nio-8088-exec-287] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：73
+2023-03-09 14:38:56.325 [http-nio-8088-exec-276] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:56.330 [http-nio-8088-exec-244] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.330 [http-nio-8088-exec-223] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.335 [http-nio-8088-exec-256] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.335 [http-nio-8088-exec-10] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.340 [http-nio-8088-exec-151] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
+2023-03-09 14:38:56.345 [http-nio-8088-exec-254] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：69
+2023-03-09 14:38:56.350 [http-nio-8088-exec-278] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：71
+2023-03-09 14:38:56.354 [http-nio-8088-exec-198] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：70
+2023-03-09 14:38:56.359 [http-nio-8088-exec-221] INFO  c.wang.web.service.impl.ConcurrencyTestServiceImpl - 语文书本剩余的数量：72
